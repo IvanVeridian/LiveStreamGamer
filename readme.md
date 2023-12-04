@@ -10,11 +10,11 @@ The project is structured into several key components:
 
 2. **Server-Pyboy.py**: A server that receives commands from the TikTok client and processes them in the PyBoy emulator to simulate game actions.
 
-3. **tiktoklive-mockmain.py**: A mock implementation of the TikTok client for testing purposes without connecting to an actual live session.
+3. **TikTokClient-mock.py**: A mock implementation of the TikTok client for testing purposes without connecting to an actual live session.
 
-4. **Pyboy-Servermock-Startfirst.py**: Similar to Server-Pyboy.py but designed for use with the mock TikTok client.
+4. **Server-Pyboy-mock.py**: Similar to Server-Pyboy.py but designed for use with the mock TikTok client.
 
-5. **comment_client.py**: Used to simulate a live TikTok session by sending comments to the TikTok client.
+5. **comment_client.py**: Used to simulate a live TikTok session by sending comments to the mock TikTok client.
 
 ## Requirements
 
@@ -31,16 +31,18 @@ The project is structured into several key components:
 
 2. **Running the TikTok Client**:
    - Run `TikTokClient.py` to start listening to a live TikTok session.
-   - Ensure to replace `@xy0340` with the actual TikTok username.
+   - Ensure to replace `@tiktokusername` with the actual TikTok username.
 
 3. **Running the PyBoy Server**:
    - Run `Server-Pyboy.py` in parallel to receive and process commands.
+   - Replace the dir `pyboy = PyBoy('C:\\Users\\user\\LiveStreamGamer\\Silver.gbc', sound=True)` with your own
 
 4. **Testing with Mock Client**:
-   - Use `tiktoklive-mockmain.py` and `Pyboy-Servermock-Startfirst.py` for testing without a live TikTok session.
+   - Use `tiktokclient-mock.py` and `Server-Pyboy-mock.py` for testing without a live TikTok session.
    - Run the mock client and server scripts.
+   - Replace the dir `pyboy = PyBoy('C:\\Users\\user\\LiveStreamGamer\\Silver.gbc', sound=True)` with your own
 
-5. **Simulating Comments**:
+5. **Simulating Comments with the Mock Server/Client**:
    - Run `comment_client.py` to send simulated comments to the TikTok client.
 
 ## Contributing
