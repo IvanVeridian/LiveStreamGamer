@@ -52,3 +52,9 @@ Feel free to fork this repository and contribute to the development. Pull reques
 ## License
 
 MIT
+
+## Shoutout
+https://github.com/Baekalfen/PyBoy
+https://github.com/isaackogan/TikTokLive
+
+Huge thanks to the creators/maintainers of the above, they made this project possible.
