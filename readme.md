@@ -1,4 +1,4 @@
-# TikTok Live Gaming Integration
+# LiveStreamGamer
 
 This repository contains a set of Python scripts designed to integrate TikTok Live streaming with a PyBoy Gameboy emulator, allowing for interactive game sessions through TikTok comments. 
 
