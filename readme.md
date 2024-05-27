@@ -70,7 +70,7 @@ The project is structured into several key components:
    - The submitted comments and server outputs will be displayed in the output area.
 
 ## Screenshots
-
+Example using a streamer and configuing the app to connect to that streamer's session. Note, Midnight club and the pyboy game are unrelated. This is just an example of how you would set it up and what you see in the GUI. 
 ![image](https://github.com/IvanVeridian/LiveStreamGamer/assets/100320639/f9d3c8b7-8b45-41da-af7d-31bda4bbd333)
 ![unnamed](https://github.com/IvanVeridian/LiveStreamGamer/assets/100320639/33d8a3ef-7711-4123-8059-b629f7d0aff9)
 
