@@ -82,3 +82,8 @@ Feel free to fork this repository and contribute to the development. Pull reques
 ## License
 
 MIT
+
+## Shoutouts
+
+Huge thanks to the developers of Pyboy and TikTokLive. It's due to their foundation that this project was made possible. 
+
