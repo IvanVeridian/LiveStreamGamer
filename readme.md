@@ -12,7 +12,7 @@ The project is structured into several key components:
 
 3. **mock_tiktokclient.py**: A mock implementation of the TikTok client for testing purposes without connecting to an actual live session.
 
-4. **mock_server_pyboy.py**: Similar to Server-Pyboy.py but designed for use with the mock TikTok client.
+4. **mock_server_pyboy.py**: Similar to server_pyboy.py but designed for use with the mock TikTok client.
 
 5. **mockcomment_client.py**: Used to simulate a live TikTok session by sending comments to the TikTok client.
 
@@ -68,6 +68,12 @@ The project is structured into several key components:
 4. **Submitting Comments**:
    - Enter a comment in the input field and click "Submit" to send the comment.
    - The submitted comments and server outputs will be displayed in the output area.
+
+## Screenshots
+
+![image](https://github.com/IvanVeridian/LiveStreamGamer/assets/100320639/f9d3c8b7-8b45-41da-af7d-31bda4bbd333)
+![unnamed](https://github.com/IvanVeridian/LiveStreamGamer/assets/100320639/33d8a3ef-7711-4123-8059-b629f7d0aff9)
+
 
 ## Contributing
 
